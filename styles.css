@@ -1,0 +1,67 @@
+body {
+    margin: 0 auto;
+    background-color: black;
+}
+
+main {
+    margin: 0px 50px 0px 50px;
+    display: flex;
+}
+
+.box {
+    
+    width: 100%;
+    height: 100%;
+    background-color: darkcyan;
+    
+    
+    
+}
+
+.box1 {
+    width: 80%;
+    height: 80%;
+    background-color: grey;
+    margin: 50px 50px 0px 50px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 150px;
+
+}
+
+.uusi {
+    
+}
+
+.box2 {
+    margin: 20px 20px 20px 150px;
+}
+
+.btn {
+    margin: 20px 20px 20px 150px;
+}
+
+table {
+    width: 1479px;
+    margin: 20px 20px 20px 150px;
+}
+
+table td {
+    width: 1200px;
+    
+    
+    text-align: left;
+}
+
+table th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: left;
+}
+
+.footer {
+    
+    margin: 500px 20px 20px 150px;
+}
+
+
