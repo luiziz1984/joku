@@ -1,3 +1,14 @@
+<?php
+
+/*
+    Yhdistetään tietokantaan käyttäen eri tiedostoa
+    https://www.w3schools.com/php/php_includes.asp
+*/
+
+require_once("mysqlConnection.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,7 +61,12 @@
                           <td>https://github.com/PT-JaloIT/MIT-opin-t-n-n</td>
                           <td>X</td>
                         </tr>
-                       
+ <?php
+
+include("listaa_oivallus.php");
+
+?>
+                    
                 </table>
 
         </div>
@@ -67,6 +83,8 @@
     </div>
 
 </main>
+    
+   
 
 </body>
 </html>
