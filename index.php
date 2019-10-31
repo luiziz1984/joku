@@ -36,7 +36,7 @@ require_once("mysqlConnection.php");
             
                 <div class="box2">
 
-                    <form action="lisaa_oivallus.php">
+                    <form action="lisaa_oivallus.php" method="post">
 
                         <input name="lisaa_uusi_oivallus" type="text"></input>
 
