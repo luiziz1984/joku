@@ -61,11 +61,13 @@ require_once("mysqlConnection.php");
                           <td>https://github.com/PT-JaloIT/MIT-opin-t-n-n</td>
                           <td>X</td>
                         </tr>
- <?php
+ 
+<?php
 
 include("listaa_oivallus.php");
 
-?>
+?>                
+                    
                     
                 </table>
 
